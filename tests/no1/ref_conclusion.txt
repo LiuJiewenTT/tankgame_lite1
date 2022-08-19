@@ -1,0 +1,10 @@
+ref1.py: not effected
+ref2.py: effected
+
+Difference:
+    The former:
+        b = a[1:3]
+        # slicing, copy values.
+    The latter:
+        b = a
+        # reference, not copy values.
