@@ -51,11 +51,11 @@ class Refer:
     # Single value cannot be referred to.
     target = None
     data_begin = data_end = None
-    flag_entired = False
+    flag_entire = False
 
-    def __init__(self, target, flag_entired:bool, data_begin=None, data_end=None):
+    def __init__(self, target, flag_entire:bool, data_begin=None, data_end=None):
         self.target = target
-        if flag_entired == False:
+        if flag_entire == False:
             self.data_begin = data_begin
             self.data_end = data_end
         # Must return None.
